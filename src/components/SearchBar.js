@@ -25,6 +25,7 @@ class SearchBar extends React.Component {
                         <input
                             type="text"
                             onChange={this.onInputChange}
+                            placeholder="Type here and press ENTER to Search!"
                             value={this.state.term} />
                     </div>
                 </form>
