@@ -4,7 +4,7 @@ import SearchBar from "./SearchBar";
 import VideoList from "./VideoList";
 import VideoDetail from "./VideoDetail";
 
-const KEY = "AIzaSyALaERxrnesY2CDpXBby0PafbhnBLfDjEA";
+const KEY = process.env.KEY;
 
 class App extends React.Component {
   state = { videos: [], selectedVideo: null };
